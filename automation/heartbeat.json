@@ -1,0 +1,29 @@
+{
+  "service_name": "user-dashboard",
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "uptime_seconds": 3600,
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "response_time_ms": 15
+    },
+    "authentication_service": {
+      "status": "healthy",
+      "response_time_ms": 22
+    }
+  },
+  "metrics": {
+    "cpu_usage_percent": 12.5,
+    "memory_usage_mb": 512,
+    "active_users": 1234,
+    "requests_per_minute": 60
+  },
+  "alerts": [
+    {
+      "severity": "info",
+      "message": "Low CPU usage detected."
+    }
+  ]
+}
